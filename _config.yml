@@ -24,9 +24,9 @@ title: mal1kc - blog                          # the main title
 tagline: pc programmer | computer enthusiast | video game enjoyer    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  
+  i love tinkering with computer & very basic electronics and games.
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'mal1kc.github.io'
 
 github:
   username: mal1kc            # change to your github username
@@ -96,7 +96,7 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:              # <gh-username>/<repo>
+    repo: mal1kc/mal1kc.github.io             # <gh-username>/<repo>
     repo_id:
     category:
     category_id:
