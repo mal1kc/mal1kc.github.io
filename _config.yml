@@ -23,8 +23,7 @@ title: mal1kc - blog                          # the main title
 
 tagline: pc programmer | computer enthusiast | video game enjoyer    # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
-  i love tinkering with computer & very basic electronics and games.
+description: i love tinkering with computer & very basic electronics and games.
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'mal1kc.github.io'
 
