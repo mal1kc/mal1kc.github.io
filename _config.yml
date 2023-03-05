@@ -30,8 +30,8 @@ url: 'https://mal1kc.github.io'
 github:
   username: mal1kc            # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+# twitter:
+#   username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -79,7 +79,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: 'https://avatars.githubusercontent.com/u/59576495?v=4'
 
 # boolean type, the global switch for ToC in posts.
 toc: true

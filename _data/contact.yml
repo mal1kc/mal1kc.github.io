@@ -4,9 +4,10 @@
   type: github
   icon: 'fab fa-github'
 -
-  type: twitter
-  icon: 'fab fa-twitter'
--
+  type: linkedin
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/malik-kökçan-04398720b' # Fill with your Linkedin homepage-
+- 
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
@@ -24,7 +25,8 @@
 #   type: linkedin
 #   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Linkedin homepage
-# -
-#   type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+
+-
+  type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url:  'https://www.stackoverflow.com/users/17240284/mal1kc'                  # Fill with your stackoverflow homepage
