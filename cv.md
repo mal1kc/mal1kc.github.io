@@ -1,4 +1,3 @@
-**computer programmer**
 
 
 # contact
