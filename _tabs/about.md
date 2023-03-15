@@ -6,7 +6,7 @@ author: mal1kc
 order: 4
 ---
 
-## hi 👋 my name is malik kökçan - <a href="/cv" target="_blank" rel="noreferrer">my cv </a>
+## hi 👋 my name is malik kökçan - <a href="/cv.html" target="_blank" rel="noreferrer">my cv </a>
 
 ### computer programmer
 
