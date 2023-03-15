@@ -4,16 +4,13 @@
 
 ** contact
 
-| :---------: | : -----------------------: |
 | location :  | *körfez/kocaeli - Turkey*  |
 | email :     | *mal1kc@proton.me*         |
 
 ** education
 
-| :-              -: | :-                                         -:  | :-                -: | :-      -: |
-| *09.2020-2023      | *kocaeli university - computer programming*    | *kocaelii ,turkey*   | ~3.19~     |
-| :-             -:  | :-                                          -: | :-                -: | :-      -: |
-| 09.2016-06.2020    | *derince necip fazıl anadolu highschool*       | *kocaeli, turkey*    | ~85/100~   |
+|    09.2020-2023 | *kocaeli university - computer programming* | *kocaelii ,turkey* | ~3.19~   |
+| 09.2016-06.2020 | *derince necip fazıl anadolu highschool*    | *kocaeli, turkey*  | ~85/100~ |
 
 ** skills/compentencies
 
@@ -82,4 +79,4 @@
   - [[https://github.com/mal1kc/flask-todo][flask-todo]] to-do web app programmed in python with flask,sqlalchemy,sqlite,passlib modules and bootstrap5
   - [[https://github.com/mal1kc/python-1udemy][python-notes]] my solutions and notes whlie [[https://www.udemy.com/course/sifirdan-ileri-seviyeye-python][i taking a python course]]
 
-  - [[https://github.com/mal1kc/cvs-table-explorer][cvs-table-explorer]] one page explorer for .cvs files
+  - [[https://github.com/mal1kc/csv-table-explorer][csv-table-explorer]] one page explorer for .csv files
