@@ -1,0 +1,85 @@
+#+title: Cv of Mustafa Malik Kökçan
+#+options: toc:nil
+#+subtitle: computer programmer
+
+** contact
+
+| :---------: |: -----------------------: |
+| location : | *körfez/kocaeli - Turkey* |
+| email :    | *mal1kc@proton.me*        |
+
+** education
+
+| :-              -: | :-                                         -:  | :-                -: | :-      -: |
+| *09.2020-2023      | *kocaeli university - computer programming*    | *kocaelii ,turkey*   | ~3.19~     |
+| :-             -:  | :-                                          -: | :-                -: | :-      -: |
+| 09.2016-06.2020    | *derince necip fazıl anadolu highschool*       | *kocaeli, turkey*    | ~85/100~   |
+
+** skills/compentencies
+
++ languages :
+  - english | b1
+  - türkçe | native
+
++ compentencies :
+  - linux
+    - arch
+    - alpine
+    - debian derivatives
+
+  - container technoliges:
+    - docker compose,register
+  
++ tools & techs :
+  - python modules
+    - flask
+    - django
+    - telegram
+    - pyzmq
+    - opencv
+    - tkinter
+    - pyqt
+
+  - vsc (version control systems)
+    - git
+    - remote :
+      - github
+      - gitlab
+
+  - ms-office
+    - excel
+    - word
+    - powerpoint
+
++ programming languages
+
+  - python ~advanced~
+  - c ~intermediate~
+  - c++ ~advanced beginner~
+  - php ~beginner~
+  - c# ~advanced beginner~
+  - javascript ~beginner~
+  - dart ~beginner~
+  - lua ~beginner~
+  - markup-languages
+    - html
+    - css
+    - org-mode (emacs)
+    - markdown
+  - posix-shell, scripting
+    - bash,dash
+    - fishell
+** certficates i take
+ + ~06.20.21~ - ~python~ course certificate of completion - udemy (online)
+** projects
+
++ [[https://github.com/mal1kc][github profile]]  where all my repos (mostly)
+
++ some repos from github profile of mine
+
+  - [[https://mal1kc.github.io/][my blog created via github pages]]
+
+  - [[https://github.com/mal1kc/flask-todo][flask-todo]] to-do web app programmed in python with flask,sqlalchemy,sqlite,passlib modules and bootstrap5
+  - [[https://github.com/mal1kc/python-1udemy][python-notes]] my solutions and notes whlie [[https://www.udemy.com/course/sifirdan-ileri-seviyeye-python][i taking a python course]]
+
+  - [[https://github.com/mal1kc/cvs-table-explorer][csv-table-explorer]] one page explorer for .csv files
