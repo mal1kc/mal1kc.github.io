@@ -1,0 +1,93 @@
+basics:
+  username: mal1kc
+  name: mustafa malik kökçan
+  label: computer programmer
+  email: mal1kc@proton.me
+  blogsite: mal1kc.github.io
+  location:
+    - körfez/kocaeli
+    - turkey, 41780
+  profiles:
+    - name: github
+      username: mal1kc
+      url: https://github.com/mal1kc
+    - name: linkedin
+      url: https://www.linkedin.com/in/malik-k%C3%B6k%C3%A7an-04398720b
+
+education:
+  - school: kocaeli university
+    majors: computer programming
+    start: 09.2020
+    end: 2023
+    gpo: 3.19
+
+languages:
+  - name: türkçe
+    degree: native
+
+  - name: english
+    degree: b1
+
+knowledge:
+  - name: linux
+    detail: >
+      daily archlinux user,
+      alpine in containers,
+      debian derivatives in virtual machines
+
+  - name: container technologies
+    detail: >
+      podman as rootless container manager,
+      docker compose if i need it,
+      public registires if possible
+
+  - name: vsc
+    detail: >
+      git as client,
+      github or gitlab for remote
+
+  - name: ms-office
+    detail: >
+      excel for tables with rows and columns ,
+      word for realy boring stuff,
+      powerpoint for attention grabbing,
+      but i prefers foss alternatives nowdays
+
+  - name: editors
+    detail: >
+      vscode if extensions not work in vscodium and i don't have time,
+      doomemacs for daily usage,
+      astronvim for one file scripting-editing.
+
+
+programming_langues:
+  - name: python
+    level: advanced
+    known_libs: >
+      serial,
+      flask to making basic sites,
+      django to make bigger sites,
+      pyzmq to socket based timekilling,
+      opencv to lose some pixels,
+      tkinter and pyqt to gui,
+      std lib to much more
+
+  - name: c
+    os: linux
+    level: intermediate
+    detail: mostly for embedded projects
+
+  - name: c++
+    os: linux
+    level: advanced beginner
+
+  - name: c#
+    level: advanced beginner
+
+  - beginner_languages:
+    lang_names: [js, dart, lua]
+    level: beginner
+
+  - markup_languages: [html, css, org-mode (emacs), markdown]
+
+  - scripting: [bash (posix), fishell]

@@ -19,3 +19,9 @@ Gemfile.lock
 # npm dependencies
 node_modules
 package-lock.json
+
+# i do some local testing with this files
+**test.html
+**test.md
+**test.js
+**test.css
