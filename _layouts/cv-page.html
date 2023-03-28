@@ -1,0 +1,12 @@
+---
+layout: page
+---
+{% include cv-styles.html %}
+{{content}}
+{% if page.generateCV %}
+<script type="text/javascript" src="/assets/generateCV.js"></script>
+
+  <script type="text/javascript">
+    append_cv_fromYAML('cv.yaml','main');
+  </script>
+{% endif %}

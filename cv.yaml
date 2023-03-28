@@ -1,93 +1,141 @@
 basics:
   username: mal1kc
-  name: mustafa malik kökçan
+  fullname: mustafa malik kökçan
+  first-name: mustafa malik
+  last-name: kökçan
   label: computer programmer
   email: mal1kc@proton.me
-  blogsite: mal1kc.github.io
   location:
     - körfez/kocaeli
     - turkey, 41780
   profiles:
+    - name: blogsite
+      desc: my blog
+      icon: fa-thin fa-block-quote
+      url: https://mal1kc.github.io
     - name: github
-      username: mal1kc
+      desc: mal1kc
+      icon: fab fa-github
       url: https://github.com/mal1kc
-    - name: linkedin
-      url: https://www.linkedin.com/in/malik-k%C3%B6k%C3%A7an-04398720b
 
+    - name: linkedin
+      icon: fab fa-linkedin
+      desc: malik kökçan
+      url: https://www.linkedin.com/in/malik-k%C3%B6k%C3%A7an-04398720b
+  desc: >
+    I am a computer programmer with more than half years of experience in personal projects writing python,bashscripting,cpp and c .I'm use archlinux in my personal life i do scripting and mini python apps in my daily life. I'm motivated, result-focused and seeking a successful team-oriented company with opportunity to grow.
 education:
   - school: kocaeli university
-    majors: computer programming
-    start: 09.2020
-    end: 2023
-    gpo: 3.19
+    addr: 'Kocaeli, Turkey'
+    major: computer programming
+    start: '09.2020'
+    end: '2023'
+    gpa: '3.29'
 
 languages:
   - name: türkçe
-    degree: native
+    degree: Native
 
   - name: english
-    degree: b1
+    degree: B1
 
 knowledge:
   - name: linux
     detail: >
-      daily archlinux user,
+      Daily archlinux user,
       alpine in containers,
       debian derivatives in virtual machines
 
   - name: container technologies
     detail: >
-      podman as rootless container manager,
+      Podman as rootless container manager,
       docker compose if i need it,
       public registires if possible
 
   - name: vsc
     detail: >
-      git as client,
-      github or gitlab for remote
+      Git as client,
+      github and gitlab for remote
 
   - name: ms-office
     detail: >
-      excel for tables with rows and columns ,
+      Excel for tables with rows and columns ,
       word for realy boring stuff,
       powerpoint for attention grabbing,
       but i prefers foss alternatives nowdays
 
   - name: editors
     detail: >
-      vscode if extensions not work in vscodium and i don't have time,
+      Vscode if extensions not work in vscodium and i don't have time,
       doomemacs for daily usage,
       astronvim for one file scripting-editing.
 
 
-programming_langues:
+programming_languages:
   - name: python
-    level: advanced
+    level: 4
+    detail: What i most write
     known_libs: >
-      serial,
       flask to making basic sites,
       django to make bigger sites,
       pyzmq to socket based timekilling,
       opencv to lose some pixels,
-      tkinter and pyqt to gui,
-      std lib to much more
+      tkinter and pyqt to gui
+    icon_url: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg'
 
   - name: c
     os: linux
-    level: intermediate
-    detail: mostly for embedded projects
+    level:  3
+    detail: Mostly for embedded projects
+    icon_url: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg'
 
   - name: c++
     os: linux
-    level: advanced beginner
+    level: 2
+    icon_url: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg'
 
   - name: c#
-    level: advanced beginner
+    level: 2
+    icon_url: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg'
 
-  - beginner_languages:
+
+  - name: other programming languages
     lang_names: [js, dart, lua]
-    level: beginner
+    level: 1
 
-  - markup_languages: [html, css, org-mode (emacs), markdown]
+  - name: scripting languages
+    lang_names: [bash (posix), fishell]
+    level: 3
 
-  - scripting: [bash (posix), fishell]
+  - name: markup languages
+    lang_names: [html, css, org-mode (emacs), markdown]
+
+
+projects:
+  - name: mal1kc's linux_configs
+    description: config files for my linux setups
+    url: https://github.com/mal1kc/linux_configs
+
+  - name: learnin_area
+    description:  notes and source codes that i take while i learn stuff
+    url: https://github.com/mal1kc/learnin_area
+
+  - name: lazyboard
+    description: code that i use in lazyboard
+    url: https://github.com/mal1kc/lazyboard
+
+  - name: DigisParkKeyboard
+    description: forked digisparkkeyboard library with media keys
+    url: https://github.com/mal1kc/DigisParkKeyboard
+
+  - name: flask-todo
+    description: todo app created with python flask module
+    url: https://github.com/mal1kc/flask-todo
+
+  - name: python-1udemy
+    description: my solutions and notes whlie i taking python course from udemy
+    url: https://github.com/mal1kc/python-1udemy
+
+  - name: csv-table-explorer
+    description: very basic js,html project ot crate table from csv files
+    url: https://github.com/mal1kc/csv-table-explorer
