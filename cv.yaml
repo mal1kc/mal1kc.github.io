@@ -9,7 +9,7 @@ basics:
     - körfez/kocaeli
     - turkey, 41780
   profiles:
-    - name: blogsite
+    - name: blog-site
       desc: my blog
       icon: fa-thin fa-block-quote
       url: https://mal1kc.github.io
@@ -23,7 +23,7 @@ basics:
       desc: malik kökçan
       url: https://www.linkedin.com/in/malik-k%C3%B6k%C3%A7an-04398720b
   desc: >
-    I am a computer programmer with more than half years of experience in personal projects writing python,bashscripting,cpp and c .I'm use archlinux in my personal life i do scripting and mini python apps in my daily life. I'm motivated, result-focused and seeking a successful team-oriented company with opportunity to grow.
+    I am a computer programmer with more than half years of experience in personal projects writing python, bash scripting, c++ and c. I use archlinux in my personal life,  I do scripting and mini python apps in my daily life. Furthermore, I'm motivated, result-focused and seeking a successful team-oriented company with opportunity to grow.
 education:
   - school: kocaeli university
     addr: 'Kocaeli, Turkey'
@@ -40,35 +40,35 @@ languages:
     degree: B1
 
 knowledge:
+  - name: vsc
+    detail: >
+      Git as client,
+      github and gitlab for remote.
+
   - name: linux
     detail: >
       Daily archlinux user,
       alpine in containers,
-      debian derivatives in virtual machines
+      debian derivatives in virtual machines.
 
   - name: container technologies
     detail: >
       Podman as rootless container manager,
-      docker compose if i need it,
-      public registires if possible
-
-  - name: vsc
-    detail: >
-      Git as client,
-      github and gitlab for remote
+      docker compose if I need it,
+      mostly using public registries.
 
   - name: ms-office
     detail: >
       Excel for tables with rows and columns ,
-      word for realy boring stuff,
-      powerpoint for attention grabbing,
-      but i prefers foss alternatives nowdays
+      Word for really boring stuff,
+      PowerPoint for attention grabbing,
+      but i prefers foss alternatives now days.
 
   - name: editors
     detail: >
-      Vscode if extensions not work in vscodium and i don't have time,
-      doomemacs for daily usage,
-      astronvim for one file scripting-editing.
+      Vs code if extensions not work in vscodium and i don't have time,
+      Emacs (Doomemacs) for daily usage,
+      Neovim (Astronvim) for one file scripting-editing.
 
 
 programming_languages:
@@ -78,9 +78,9 @@ programming_languages:
     known_libs: >
       flask to making basic sites,
       django to make bigger sites,
-      pyzmq to socket based timekilling,
+      pyzmq to socket based time killing,
       opencv to lose some pixels,
-      tkinter and pyqt to gui
+      tkinter and pyqt to gui.
     icon_url: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg'
 
   - name: c
@@ -109,6 +109,7 @@ programming_languages:
 
   - name: markup languages
     lang_names: [html, css, org-mode (emacs), markdown]
+    level: 3
 
 
 projects:
@@ -133,9 +134,9 @@ projects:
     url: https://github.com/mal1kc/flask-todo
 
   - name: python-1udemy
-    description: my solutions and notes whlie i taking python course from udemy
+    description: my solutions and notes while i taking python course from udemy
     url: https://github.com/mal1kc/python-1udemy
 
   - name: csv-table-explorer
-    description: very basic js,html project ot crate table from csv files
+    description: very basic js,html project to crate table from csv files
     url: https://github.com/mal1kc/csv-table-explorer

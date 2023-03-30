@@ -11,22 +11,24 @@ html {
 body {
   min-height: 100%;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 23px;
+  line-height: 20px;
   padding-bottom: 50px;
-
         margin: 0;
-        padding: 0;
-        font-family: monospace;
         /* background-color: #282c34; */
         /* color: #abb2bf; */
-}
+
+  }
 
 .main {
         /* width: 100%; */
         /* font-size: 16px; */
         /* white-space: pre; */
+
+        font-size: 14px;
+        font-family: monospace;
         tab-size: 4;
+        max-height: 100%;
+
   margin: 20px 0px 0px 20px;
   box-shadow: 1px 1px 2px #DAD7D7;
   border-radius: 3px;
@@ -37,12 +39,12 @@ body {
   margin-bottom: 30px;
 }
 .header .full-name {
+  font-family: sans-serif;
 
   /* color: #ddd; */
   font-size: 40px;
   text-transform: lowercase;
-  margin-bottom: 5px;
-  font-family: VictorMono;
+  margin-bottom: 14px;
 }
 .header .first-name {
   font-weight: 700;
@@ -69,7 +71,7 @@ body {
 .header .separator {
   height: 10px;
   display: inline-block;
-  /* border-left: 2px solid #999; */
+  border-left: 2px solid #999;
   margin: 0px 10px;
 }
 .header .position {
@@ -83,12 +85,13 @@ body {
   line-height: 20px;
 }
 .details .section {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .details .section:last-of-type {
   margin-bottom: 0px;
 }
 .details .section__title {
+  color : var(--heading-color);
   letter-spacing: 2px;
   /* color: #54AFE4; */
   font-weight: bold;
@@ -96,7 +99,7 @@ body {
   text-transform: capitalize;
 }
 .details .section__list-item {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .details .section__list-item:last-of-type {
   margin-bottom: 0;
@@ -118,6 +121,7 @@ body {
 .details .name {
 font-weight: bold;
   text-transform: capitalize;
+  font-weight: 700;
 /* color: #B4F4FF; */
 }
 .details .skill {
@@ -150,13 +154,15 @@ font-weight: bold;
 .details .skills__item .detail_right input {
   display: none;
 }
-.details .skills__item .detail_right label, .dot{
+.details .skills__item .detail_right label, .dot, .degree{
   display: inline-block;
   width: 20px;
   height: 20px;
   border-radius: 20px;
   margin-right: 3px;
 }
+
+
 .details .skills__item .detail_right input:checked + label, .dot{
   background: #54bBFE;
 }
@@ -165,9 +171,16 @@ font-weight: bold;
      opacity: 0;
 }
 
+.degree{
+  color: #54bBFE;
+}
+
 img {
   width: 30px;
   max-width: 100%;
   height: auto;
 }
 
+#core-wrapper,#panel-wrapper,body {
+  min-height: 3rem !important;
+}
