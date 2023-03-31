@@ -248,6 +248,8 @@ ${pl_data[pl_ind]['name']}
             let degree = pl_data[pl_ind]['level'];
             for (var i = 0; i < degree; ++i)
               sect_list.push(`<span class="dot"></span>`);
+            for (var i = 5 - degree ; i > 0 ;--i)
+              sect_list.push(`<span class="empty_dot"></span>`);
           }
           if ('os' in pl_data[pl_ind])
             sect_list.push(`<div class="description"><span style="color: var(--link-color)"> >_ os </span>

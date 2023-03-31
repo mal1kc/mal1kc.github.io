@@ -154,7 +154,7 @@ font-weight: bold;
 .details .skills__item .detail_right input {
   display: none;
 }
-.details .skills__item .detail_right label, .dot, .degree{
+.details .skills__item .detail_right label, .dot, .empty_dot, .degree{
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -170,6 +170,11 @@ font-weight: bold;
 .details .skills__item .detail_right input:not(:checked) + label {
      opacity: 0;
 }
+
+.empty_dot{
+  background:#bbff;
+}
+
 
 .degree{
   color: #54bBFE;
